@@ -10,7 +10,7 @@ search_str <- paste('*2001',sep='')
 files <- list.files(path=path,pattern=glob2rx(search_str),full.names=T,include.dirs=F)
 tiles_c6 <- substr(files,78,83)
 tiles <- tiles_c6
-a
+
 # One tile
 phe_met <- c('Dormancy','EVI_Amplitude','EVI_Area','EVI_Minimum','Greenup','Maturity','MidGreendown','MidGreenup','NumCycles','Peak','QA_Detailed','QA_Overall','Senescence')
 year <- seq(2001,2015)
